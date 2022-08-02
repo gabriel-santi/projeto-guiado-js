@@ -1,0 +1,20 @@
+.lista {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.lista tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.lista thead tr {
+    vertical-align: top;
+    color: #fff;
+    background-color: #000;
+    font-weight: bold;
+}
+
+
+.lista tr td {
+    padding: 5px;
+}
